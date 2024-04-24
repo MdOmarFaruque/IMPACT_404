@@ -1,0 +1,488 @@
+timestamp 1713915829
+version 8.3
+tech sky130B
+style ngspice(nowell)
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sram_4t_layout_32x1 sram_4t_layout_32x1_0 1 0 5154 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_1 1 0 18 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_2 1 0 566 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_3 1 0 1114 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_4 1 0 1662 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_5 1 0 2210 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_6 1 0 2758 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_7 1 0 3510 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_8 1 0 4058 0 1 10318
+use sram_4t_layout_32x1 sram_4t_layout_32x1_9 1 0 4606 0 1 10318
+port "vdd_low" 2 4566 10858 4596 10884 m3
+port "vdd" 1 1620 10858 1650 10884 m3
+port "BLb9" 22 5564 10800 5594 10812 m2
+port "BL9" 12 5212 10800 5242 10812 m2
+port "BLb8" 21 5014 10800 5044 10812 m2
+port "BL8" 11 4664 10800 4694 10812 m2
+port "BLb7" 20 4468 10800 4498 10812 m2
+port "BL7" 10 4116 10800 4146 10812 m2
+port "BLb6" 19 3920 10800 3950 10812 m2
+port "BL6" 9 3566 10800 3596 10812 m2
+port "BLb5" 18 3166 10800 3196 10812 m2
+port "BL5" 8 2814 10800 2844 10812 m2
+port "BLb4" 17 2618 10800 2648 10812 m2
+port "BL4" 7 2266 10800 2296 10812 m2
+port "BLb3" 16 2070 10800 2100 10812 m2
+port "BL3" 6 1720 10800 1750 10812 m2
+port "BLb2" 15 1524 10800 1554 10812 m2
+port "BL2" 5 1172 10800 1202 10812 m2
+port "BLb1" 14 972 10800 1002 10812 m2
+port "BL1" 4 622 10800 652 10812 m2
+port "BLb0" 13 430 10800 460 10812 m2
+port "BL0" 3 74 10798 104 10810 m2
+port "vssd2" 55 3500 10820 3530 10840 m1
+port "vssd1" 56 3250 10820 3290 10840 m1
+port "WL31" 54 -8 104 2 118 p
+port "WL30" 53 -8 676 2 690 p
+port "WL29" 52 -8 768 2 782 p
+port "WL28" 51 -8 1340 2 1354 p
+port "WL27" 50 -8 1432 2 1446 p
+port "WL26" 49 -8 2004 2 2018 p
+port "WL25" 48 -6 2098 4 2112 p
+port "WL24" 47 -8 2668 2 2682 p
+port "WL23" 46 -8 2760 2 2774 p
+port "WL22" 45 -8 3332 2 3346 p
+port "WL21" 44 -8 3424 2 3438 p
+port "WL20" 43 -8 3996 2 4010 p
+port "WL19" 42 -8 4088 2 4102 p
+port "WL18" 41 -8 4660 2 4674 p
+port "WL17" 40 -8 4752 2 4766 p
+port "WL16" 39 -8 5324 2 5338 p
+port "WL15" 38 -8 5416 2 5430 p
+port "WL14" 37 -8 5988 2 6002 p
+port "WL13" 36 -8 6082 2 6096 p
+port "WL12" 35 -8 6652 2 6666 p
+port "WL11" 34 -8 6744 2 6758 p
+port "WL10" 33 -8 7316 2 7330 p
+port "WL9" 32 -8 7410 2 7424 p
+port "WL8" 31 -8 7980 2 7994 p
+port "WL7" 30 -8 8074 2 8088 p
+port "WL6" 29 -8 8644 2 8658 p
+port "WL5" 28 -8 8738 2 8752 p
+port "WL4" 27 -8 9308 2 9322 p
+port "WL3" 26 -8 9400 2 9414 p
+port "WL2" 25 -8 9972 2 9986 p
+port "WL1" 24 -8 10066 2 10080 p
+port "WL0" 23 -8 10638 2 10652 p
+node "vdd_low" 0 0 4566 10858 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 0 1620 10858 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb9" 0 0 5564 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL9" 0 0 5212 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb8" 0 0 5014 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL8" 0 0 4664 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb7" 0 0 4468 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL7" 0 0 4116 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb6" 0 0 3920 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL6" 0 0 3566 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb5" 0 0 3166 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL5" 0 0 2814 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb4" 0 0 2618 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL4" 0 0 2266 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb3" 0 0 2070 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL3" 0 0 1720 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb2" 0 0 1524 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL2" 0 0 1172 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb1" 0 0 972 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL1" 0 0 622 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BLb0" 0 0 430 10800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BL0" 0 0 74 10798 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vssd2" 0 0 3500 10820 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vssd1" 0 0 3250 10820 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL31" 0 0 -8 104 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL30" 0 0 -8 676 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL29" 0 0 -8 768 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL28" 0 0 -8 1340 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL27" 0 0 -8 1432 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL26" 0 0 -8 2004 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL25" 0 0 -6 2098 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL24" 0 0 -8 2668 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL23" 0 0 -8 2760 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL22" 0 0 -8 3332 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL21" 0 0 -8 3424 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL20" 0 0 -8 3996 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL19" 0 0 -8 4088 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL18" 0 0 -8 4660 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL17" 0 0 -8 4752 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL16" 0 0 -8 5324 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL15" 0 0 -8 5416 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL14" 0 0 -8 5988 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL13" 0 0 -8 6082 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL12" 0 0 -8 6652 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL11" 0 0 -8 6744 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL10" 0 0 -8 7316 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL9" 0 0 -8 7410 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL8" 0 0 -8 7980 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL7" 0 0 -8 8074 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL6" 0 0 -8 8644 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL5" 0 0 -8 8738 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL4" 0 0 -8 9308 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL3" 0 0 -8 9400 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL2" 0 0 -8 9972 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL1" 0 0 -8 10066 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL0" 0 0 -8 10638 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_0/WL28" "sram_4t_layout_32x1_9/WL28" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL28" "sram_4t_layout_32x1_8/WL28"
+merge "sram_4t_layout_32x1_8/WL28" "sram_4t_layout_32x1_7/WL28"
+merge "sram_4t_layout_32x1_7/WL28" "sram_4t_layout_32x1_6/WL28"
+merge "sram_4t_layout_32x1_6/WL28" "sram_4t_layout_32x1_5/WL28"
+merge "sram_4t_layout_32x1_5/WL28" "sram_4t_layout_32x1_4/WL28"
+merge "sram_4t_layout_32x1_4/WL28" "sram_4t_layout_32x1_3/WL28"
+merge "sram_4t_layout_32x1_3/WL28" "sram_4t_layout_32x1_1/WL28"
+merge "sram_4t_layout_32x1_1/WL28" "sram_4t_layout_32x1_2/WL28"
+merge "sram_4t_layout_32x1_2/WL28" "WL28"
+merge "sram_4t_layout_32x1_4/BL" "BL3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_0/WL17" "sram_4t_layout_32x1_9/WL17" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL17" "sram_4t_layout_32x1_8/WL17"
+merge "sram_4t_layout_32x1_8/WL17" "sram_4t_layout_32x1_7/WL17"
+merge "sram_4t_layout_32x1_7/WL17" "sram_4t_layout_32x1_6/WL17"
+merge "sram_4t_layout_32x1_6/WL17" "sram_4t_layout_32x1_5/WL17"
+merge "sram_4t_layout_32x1_5/WL17" "sram_4t_layout_32x1_4/WL17"
+merge "sram_4t_layout_32x1_4/WL17" "sram_4t_layout_32x1_3/WL17"
+merge "sram_4t_layout_32x1_3/WL17" "sram_4t_layout_32x1_1/WL17"
+merge "sram_4t_layout_32x1_1/WL17" "sram_4t_layout_32x1_2/WL17"
+merge "sram_4t_layout_32x1_2/WL17" "WL17"
+merge "sram_4t_layout_32x1_0/WL31" "sram_4t_layout_32x1_9/WL31" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL31" "sram_4t_layout_32x1_8/WL31"
+merge "sram_4t_layout_32x1_8/WL31" "sram_4t_layout_32x1_7/WL31"
+merge "sram_4t_layout_32x1_7/WL31" "sram_4t_layout_32x1_6/WL31"
+merge "sram_4t_layout_32x1_6/WL31" "sram_4t_layout_32x1_5/WL31"
+merge "sram_4t_layout_32x1_5/WL31" "sram_4t_layout_32x1_4/WL31"
+merge "sram_4t_layout_32x1_4/WL31" "sram_4t_layout_32x1_3/WL31"
+merge "sram_4t_layout_32x1_3/WL31" "sram_4t_layout_32x1_1/WL31"
+merge "sram_4t_layout_32x1_1/WL31" "sram_4t_layout_32x1_2/WL31"
+merge "sram_4t_layout_32x1_2/WL31" "WL31"
+merge "sram_4t_layout_32x1_0/WL20" "sram_4t_layout_32x1_9/WL20" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL20" "sram_4t_layout_32x1_8/WL20"
+merge "sram_4t_layout_32x1_8/WL20" "sram_4t_layout_32x1_7/WL20"
+merge "sram_4t_layout_32x1_7/WL20" "sram_4t_layout_32x1_6/WL20"
+merge "sram_4t_layout_32x1_6/WL20" "sram_4t_layout_32x1_5/WL20"
+merge "sram_4t_layout_32x1_5/WL20" "sram_4t_layout_32x1_4/WL20"
+merge "sram_4t_layout_32x1_4/WL20" "sram_4t_layout_32x1_3/WL20"
+merge "sram_4t_layout_32x1_3/WL20" "sram_4t_layout_32x1_1/WL20"
+merge "sram_4t_layout_32x1_1/WL20" "sram_4t_layout_32x1_2/WL20"
+merge "sram_4t_layout_32x1_2/WL20" "WL20"
+merge "sram_4t_layout_32x1_0/WL6" "sram_4t_layout_32x1_9/WL6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL6" "sram_4t_layout_32x1_8/WL6"
+merge "sram_4t_layout_32x1_8/WL6" "sram_4t_layout_32x1_7/WL6"
+merge "sram_4t_layout_32x1_7/WL6" "sram_4t_layout_32x1_6/WL6"
+merge "sram_4t_layout_32x1_6/WL6" "sram_4t_layout_32x1_5/WL6"
+merge "sram_4t_layout_32x1_5/WL6" "sram_4t_layout_32x1_4/WL6"
+merge "sram_4t_layout_32x1_4/WL6" "sram_4t_layout_32x1_3/WL6"
+merge "sram_4t_layout_32x1_3/WL6" "sram_4t_layout_32x1_1/WL6"
+merge "sram_4t_layout_32x1_1/WL6" "sram_4t_layout_32x1_2/WL6"
+merge "sram_4t_layout_32x1_2/WL6" "WL6"
+merge "sram_4t_layout_32x1_0/WL9" "sram_4t_layout_32x1_9/WL9" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL9" "sram_4t_layout_32x1_8/WL9"
+merge "sram_4t_layout_32x1_8/WL9" "sram_4t_layout_32x1_7/WL9"
+merge "sram_4t_layout_32x1_7/WL9" "sram_4t_layout_32x1_6/WL9"
+merge "sram_4t_layout_32x1_6/WL9" "sram_4t_layout_32x1_5/WL9"
+merge "sram_4t_layout_32x1_5/WL9" "sram_4t_layout_32x1_4/WL9"
+merge "sram_4t_layout_32x1_4/WL9" "sram_4t_layout_32x1_3/WL9"
+merge "sram_4t_layout_32x1_3/WL9" "sram_4t_layout_32x1_1/WL9"
+merge "sram_4t_layout_32x1_1/WL9" "sram_4t_layout_32x1_2/WL9"
+merge "sram_4t_layout_32x1_2/WL9" "WL9"
+merge "sram_4t_layout_32x1_7/BL" "BL6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_0/WL5" "sram_4t_layout_32x1_9/WL5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL5" "sram_4t_layout_32x1_8/WL5"
+merge "sram_4t_layout_32x1_8/WL5" "sram_4t_layout_32x1_7/WL5"
+merge "sram_4t_layout_32x1_7/WL5" "sram_4t_layout_32x1_6/WL5"
+merge "sram_4t_layout_32x1_6/WL5" "sram_4t_layout_32x1_5/WL5"
+merge "sram_4t_layout_32x1_5/WL5" "sram_4t_layout_32x1_4/WL5"
+merge "sram_4t_layout_32x1_4/WL5" "sram_4t_layout_32x1_3/WL5"
+merge "sram_4t_layout_32x1_3/WL5" "sram_4t_layout_32x1_1/WL5"
+merge "sram_4t_layout_32x1_1/WL5" "sram_4t_layout_32x1_2/WL5"
+merge "sram_4t_layout_32x1_2/WL5" "WL5"
+merge "sram_4t_layout_32x1_0/WL23" "sram_4t_layout_32x1_9/WL23" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL23" "sram_4t_layout_32x1_8/WL23"
+merge "sram_4t_layout_32x1_8/WL23" "sram_4t_layout_32x1_7/WL23"
+merge "sram_4t_layout_32x1_7/WL23" "sram_4t_layout_32x1_6/WL23"
+merge "sram_4t_layout_32x1_6/WL23" "sram_4t_layout_32x1_5/WL23"
+merge "sram_4t_layout_32x1_5/WL23" "sram_4t_layout_32x1_4/WL23"
+merge "sram_4t_layout_32x1_4/WL23" "sram_4t_layout_32x1_3/WL23"
+merge "sram_4t_layout_32x1_3/WL23" "sram_4t_layout_32x1_1/WL23"
+merge "sram_4t_layout_32x1_1/WL23" "sram_4t_layout_32x1_2/WL23"
+merge "sram_4t_layout_32x1_2/WL23" "WL23"
+merge "sram_4t_layout_32x1_0/WL12" "sram_4t_layout_32x1_9/WL12" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL12" "sram_4t_layout_32x1_8/WL12"
+merge "sram_4t_layout_32x1_8/WL12" "sram_4t_layout_32x1_7/WL12"
+merge "sram_4t_layout_32x1_7/WL12" "sram_4t_layout_32x1_6/WL12"
+merge "sram_4t_layout_32x1_6/WL12" "sram_4t_layout_32x1_5/WL12"
+merge "sram_4t_layout_32x1_5/WL12" "sram_4t_layout_32x1_4/WL12"
+merge "sram_4t_layout_32x1_4/WL12" "sram_4t_layout_32x1_3/WL12"
+merge "sram_4t_layout_32x1_3/WL12" "sram_4t_layout_32x1_1/WL12"
+merge "sram_4t_layout_32x1_1/WL12" "sram_4t_layout_32x1_2/WL12"
+merge "sram_4t_layout_32x1_2/WL12" "WL12"
+merge "sram_4t_layout_32x1_0/WL1" "sram_4t_layout_32x1_9/WL1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL1" "sram_4t_layout_32x1_8/WL1"
+merge "sram_4t_layout_32x1_8/WL1" "sram_4t_layout_32x1_7/WL1"
+merge "sram_4t_layout_32x1_7/WL1" "sram_4t_layout_32x1_6/WL1"
+merge "sram_4t_layout_32x1_6/WL1" "sram_4t_layout_32x1_5/WL1"
+merge "sram_4t_layout_32x1_5/WL1" "sram_4t_layout_32x1_4/WL1"
+merge "sram_4t_layout_32x1_4/WL1" "sram_4t_layout_32x1_3/WL1"
+merge "sram_4t_layout_32x1_3/WL1" "sram_4t_layout_32x1_1/WL1"
+merge "sram_4t_layout_32x1_1/WL1" "sram_4t_layout_32x1_2/WL1"
+merge "sram_4t_layout_32x1_2/WL1" "WL1"
+merge "sram_4t_layout_32x1_0/WL29" "sram_4t_layout_32x1_9/WL29" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL29" "sram_4t_layout_32x1_8/WL29"
+merge "sram_4t_layout_32x1_8/WL29" "sram_4t_layout_32x1_7/WL29"
+merge "sram_4t_layout_32x1_7/WL29" "sram_4t_layout_32x1_6/WL29"
+merge "sram_4t_layout_32x1_6/WL29" "sram_4t_layout_32x1_5/WL29"
+merge "sram_4t_layout_32x1_5/WL29" "sram_4t_layout_32x1_4/WL29"
+merge "sram_4t_layout_32x1_4/WL29" "sram_4t_layout_32x1_3/WL29"
+merge "sram_4t_layout_32x1_3/WL29" "sram_4t_layout_32x1_1/WL29"
+merge "sram_4t_layout_32x1_1/WL29" "sram_4t_layout_32x1_2/WL29"
+merge "sram_4t_layout_32x1_2/WL29" "WL29"
+merge "sram_4t_layout_32x1_0/WL18" "sram_4t_layout_32x1_9/WL18" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL18" "sram_4t_layout_32x1_8/WL18"
+merge "sram_4t_layout_32x1_8/WL18" "sram_4t_layout_32x1_7/WL18"
+merge "sram_4t_layout_32x1_7/WL18" "sram_4t_layout_32x1_6/WL18"
+merge "sram_4t_layout_32x1_6/WL18" "sram_4t_layout_32x1_5/WL18"
+merge "sram_4t_layout_32x1_5/WL18" "sram_4t_layout_32x1_4/WL18"
+merge "sram_4t_layout_32x1_4/WL18" "sram_4t_layout_32x1_3/WL18"
+merge "sram_4t_layout_32x1_3/WL18" "sram_4t_layout_32x1_1/WL18"
+merge "sram_4t_layout_32x1_1/WL18" "sram_4t_layout_32x1_2/WL18"
+merge "sram_4t_layout_32x1_2/WL18" "WL18"
+merge "sram_4t_layout_32x1_0/WL21" "sram_4t_layout_32x1_9/WL21" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL21" "sram_4t_layout_32x1_8/WL21"
+merge "sram_4t_layout_32x1_8/WL21" "sram_4t_layout_32x1_7/WL21"
+merge "sram_4t_layout_32x1_7/WL21" "sram_4t_layout_32x1_6/WL21"
+merge "sram_4t_layout_32x1_6/WL21" "sram_4t_layout_32x1_5/WL21"
+merge "sram_4t_layout_32x1_5/WL21" "sram_4t_layout_32x1_4/WL21"
+merge "sram_4t_layout_32x1_4/WL21" "sram_4t_layout_32x1_3/WL21"
+merge "sram_4t_layout_32x1_3/WL21" "sram_4t_layout_32x1_1/WL21"
+merge "sram_4t_layout_32x1_1/WL21" "sram_4t_layout_32x1_2/WL21"
+merge "sram_4t_layout_32x1_2/WL21" "WL21"
+merge "sram_4t_layout_32x1_0/WL10" "sram_4t_layout_32x1_9/WL10" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL10" "sram_4t_layout_32x1_8/WL10"
+merge "sram_4t_layout_32x1_8/WL10" "sram_4t_layout_32x1_7/WL10"
+merge "sram_4t_layout_32x1_7/WL10" "sram_4t_layout_32x1_6/WL10"
+merge "sram_4t_layout_32x1_6/WL10" "sram_4t_layout_32x1_5/WL10"
+merge "sram_4t_layout_32x1_5/WL10" "sram_4t_layout_32x1_4/WL10"
+merge "sram_4t_layout_32x1_4/WL10" "sram_4t_layout_32x1_3/WL10"
+merge "sram_4t_layout_32x1_3/WL10" "sram_4t_layout_32x1_1/WL10"
+merge "sram_4t_layout_32x1_1/WL10" "sram_4t_layout_32x1_2/WL10"
+merge "sram_4t_layout_32x1_2/WL10" "WL10"
+merge "sram_4t_layout_32x1_0/WL7" "sram_4t_layout_32x1_9/WL7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL7" "sram_4t_layout_32x1_8/WL7"
+merge "sram_4t_layout_32x1_8/WL7" "sram_4t_layout_32x1_7/WL7"
+merge "sram_4t_layout_32x1_7/WL7" "sram_4t_layout_32x1_6/WL7"
+merge "sram_4t_layout_32x1_6/WL7" "sram_4t_layout_32x1_5/WL7"
+merge "sram_4t_layout_32x1_5/WL7" "sram_4t_layout_32x1_4/WL7"
+merge "sram_4t_layout_32x1_4/WL7" "sram_4t_layout_32x1_3/WL7"
+merge "sram_4t_layout_32x1_3/WL7" "sram_4t_layout_32x1_1/WL7"
+merge "sram_4t_layout_32x1_1/WL7" "sram_4t_layout_32x1_2/WL7"
+merge "sram_4t_layout_32x1_2/WL7" "WL7"
+merge "sram_4t_layout_32x1_0/WL24" "sram_4t_layout_32x1_9/WL24" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL24" "sram_4t_layout_32x1_8/WL24"
+merge "sram_4t_layout_32x1_8/WL24" "sram_4t_layout_32x1_7/WL24"
+merge "sram_4t_layout_32x1_7/WL24" "sram_4t_layout_32x1_6/WL24"
+merge "sram_4t_layout_32x1_6/WL24" "sram_4t_layout_32x1_5/WL24"
+merge "sram_4t_layout_32x1_5/WL24" "sram_4t_layout_32x1_4/WL24"
+merge "sram_4t_layout_32x1_4/WL24" "sram_4t_layout_32x1_3/WL24"
+merge "sram_4t_layout_32x1_3/WL24" "sram_4t_layout_32x1_1/WL24"
+merge "sram_4t_layout_32x1_1/WL24" "sram_4t_layout_32x1_2/WL24"
+merge "sram_4t_layout_32x1_2/WL24" "WL24"
+merge "sram_4t_layout_32x1_0/WL13" "sram_4t_layout_32x1_9/WL13" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL13" "sram_4t_layout_32x1_8/WL13"
+merge "sram_4t_layout_32x1_8/WL13" "sram_4t_layout_32x1_7/WL13"
+merge "sram_4t_layout_32x1_7/WL13" "sram_4t_layout_32x1_6/WL13"
+merge "sram_4t_layout_32x1_6/WL13" "sram_4t_layout_32x1_5/WL13"
+merge "sram_4t_layout_32x1_5/WL13" "sram_4t_layout_32x1_4/WL13"
+merge "sram_4t_layout_32x1_4/WL13" "sram_4t_layout_32x1_3/WL13"
+merge "sram_4t_layout_32x1_3/WL13" "sram_4t_layout_32x1_1/WL13"
+merge "sram_4t_layout_32x1_1/WL13" "sram_4t_layout_32x1_2/WL13"
+merge "sram_4t_layout_32x1_2/WL13" "WL13"
+merge "sram_4t_layout_32x1_0/WL2" "sram_4t_layout_32x1_9/WL2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL2" "sram_4t_layout_32x1_8/WL2"
+merge "sram_4t_layout_32x1_8/WL2" "sram_4t_layout_32x1_7/WL2"
+merge "sram_4t_layout_32x1_7/WL2" "sram_4t_layout_32x1_6/WL2"
+merge "sram_4t_layout_32x1_6/WL2" "sram_4t_layout_32x1_5/WL2"
+merge "sram_4t_layout_32x1_5/WL2" "sram_4t_layout_32x1_4/WL2"
+merge "sram_4t_layout_32x1_4/WL2" "sram_4t_layout_32x1_3/WL2"
+merge "sram_4t_layout_32x1_3/WL2" "sram_4t_layout_32x1_1/WL2"
+merge "sram_4t_layout_32x1_1/WL2" "sram_4t_layout_32x1_2/WL2"
+merge "sram_4t_layout_32x1_2/WL2" "WL2"
+merge "sram_4t_layout_32x1_0/WL19" "sram_4t_layout_32x1_9/WL19" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL19" "sram_4t_layout_32x1_8/WL19"
+merge "sram_4t_layout_32x1_8/WL19" "sram_4t_layout_32x1_7/WL19"
+merge "sram_4t_layout_32x1_7/WL19" "sram_4t_layout_32x1_6/WL19"
+merge "sram_4t_layout_32x1_6/WL19" "sram_4t_layout_32x1_5/WL19"
+merge "sram_4t_layout_32x1_5/WL19" "sram_4t_layout_32x1_4/WL19"
+merge "sram_4t_layout_32x1_4/WL19" "sram_4t_layout_32x1_3/WL19"
+merge "sram_4t_layout_32x1_3/WL19" "sram_4t_layout_32x1_1/WL19"
+merge "sram_4t_layout_32x1_1/WL19" "sram_4t_layout_32x1_2/WL19"
+merge "sram_4t_layout_32x1_2/WL19" "WL19"
+merge "sram_4t_layout_32x1_0/WL30" "sram_4t_layout_32x1_9/WL30" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL30" "sram_4t_layout_32x1_8/WL30"
+merge "sram_4t_layout_32x1_8/WL30" "sram_4t_layout_32x1_7/WL30"
+merge "sram_4t_layout_32x1_7/WL30" "sram_4t_layout_32x1_6/WL30"
+merge "sram_4t_layout_32x1_6/WL30" "sram_4t_layout_32x1_5/WL30"
+merge "sram_4t_layout_32x1_5/WL30" "sram_4t_layout_32x1_4/WL30"
+merge "sram_4t_layout_32x1_4/WL30" "sram_4t_layout_32x1_3/WL30"
+merge "sram_4t_layout_32x1_3/WL30" "sram_4t_layout_32x1_1/WL30"
+merge "sram_4t_layout_32x1_1/WL30" "sram_4t_layout_32x1_2/WL30"
+merge "sram_4t_layout_32x1_2/WL30" "WL30"
+merge "sram_4t_layout_32x1_0/vdd" "sram_4t_layout_32x1_9/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/vdd" "sram_4t_layout_32x1_8/vdd"
+merge "sram_4t_layout_32x1_8/vdd" "sram_4t_layout_32x1_7/vdd"
+merge "sram_4t_layout_32x1_7/vdd" "vdd_low"
+merge "sram_4t_layout_32x1_0/WL22" "sram_4t_layout_32x1_9/WL22" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL22" "sram_4t_layout_32x1_8/WL22"
+merge "sram_4t_layout_32x1_8/WL22" "sram_4t_layout_32x1_7/WL22"
+merge "sram_4t_layout_32x1_7/WL22" "sram_4t_layout_32x1_6/WL22"
+merge "sram_4t_layout_32x1_6/WL22" "sram_4t_layout_32x1_5/WL22"
+merge "sram_4t_layout_32x1_5/WL22" "sram_4t_layout_32x1_4/WL22"
+merge "sram_4t_layout_32x1_4/WL22" "sram_4t_layout_32x1_3/WL22"
+merge "sram_4t_layout_32x1_3/WL22" "sram_4t_layout_32x1_1/WL22"
+merge "sram_4t_layout_32x1_1/WL22" "sram_4t_layout_32x1_2/WL22"
+merge "sram_4t_layout_32x1_2/WL22" "WL22"
+merge "sram_4t_layout_32x1_0/WL11" "sram_4t_layout_32x1_9/WL11" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL11" "sram_4t_layout_32x1_8/WL11"
+merge "sram_4t_layout_32x1_8/WL11" "sram_4t_layout_32x1_7/WL11"
+merge "sram_4t_layout_32x1_7/WL11" "sram_4t_layout_32x1_6/WL11"
+merge "sram_4t_layout_32x1_6/WL11" "sram_4t_layout_32x1_5/WL11"
+merge "sram_4t_layout_32x1_5/WL11" "sram_4t_layout_32x1_4/WL11"
+merge "sram_4t_layout_32x1_4/WL11" "sram_4t_layout_32x1_3/WL11"
+merge "sram_4t_layout_32x1_3/WL11" "sram_4t_layout_32x1_1/WL11"
+merge "sram_4t_layout_32x1_1/WL11" "sram_4t_layout_32x1_2/WL11"
+merge "sram_4t_layout_32x1_2/WL11" "WL11"
+merge "sram_4t_layout_32x1_0/WL8" "sram_4t_layout_32x1_9/WL8" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL8" "sram_4t_layout_32x1_8/WL8"
+merge "sram_4t_layout_32x1_8/WL8" "sram_4t_layout_32x1_7/WL8"
+merge "sram_4t_layout_32x1_7/WL8" "sram_4t_layout_32x1_6/WL8"
+merge "sram_4t_layout_32x1_6/WL8" "sram_4t_layout_32x1_5/WL8"
+merge "sram_4t_layout_32x1_5/WL8" "sram_4t_layout_32x1_4/WL8"
+merge "sram_4t_layout_32x1_4/WL8" "sram_4t_layout_32x1_3/WL8"
+merge "sram_4t_layout_32x1_3/WL8" "sram_4t_layout_32x1_1/WL8"
+merge "sram_4t_layout_32x1_1/WL8" "sram_4t_layout_32x1_2/WL8"
+merge "sram_4t_layout_32x1_2/WL8" "WL8"
+merge "sram_4t_layout_32x1_0/WL0" "sram_4t_layout_32x1_9/WL0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL0" "sram_4t_layout_32x1_8/WL0"
+merge "sram_4t_layout_32x1_8/WL0" "sram_4t_layout_32x1_7/WL0"
+merge "sram_4t_layout_32x1_7/WL0" "sram_4t_layout_32x1_6/WL0"
+merge "sram_4t_layout_32x1_6/WL0" "sram_4t_layout_32x1_5/WL0"
+merge "sram_4t_layout_32x1_5/WL0" "sram_4t_layout_32x1_4/WL0"
+merge "sram_4t_layout_32x1_4/WL0" "sram_4t_layout_32x1_3/WL0"
+merge "sram_4t_layout_32x1_3/WL0" "sram_4t_layout_32x1_1/WL0"
+merge "sram_4t_layout_32x1_1/WL0" "sram_4t_layout_32x1_2/WL0"
+merge "sram_4t_layout_32x1_2/WL0" "WL0"
+merge "sram_4t_layout_32x1_0/WL25" "sram_4t_layout_32x1_9/WL25" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL25" "sram_4t_layout_32x1_8/WL25"
+merge "sram_4t_layout_32x1_8/WL25" "sram_4t_layout_32x1_7/WL25"
+merge "sram_4t_layout_32x1_7/WL25" "sram_4t_layout_32x1_6/WL25"
+merge "sram_4t_layout_32x1_6/WL25" "sram_4t_layout_32x1_5/WL25"
+merge "sram_4t_layout_32x1_5/WL25" "sram_4t_layout_32x1_4/WL25"
+merge "sram_4t_layout_32x1_4/WL25" "sram_4t_layout_32x1_3/WL25"
+merge "sram_4t_layout_32x1_3/WL25" "sram_4t_layout_32x1_1/WL25"
+merge "sram_4t_layout_32x1_1/WL25" "sram_4t_layout_32x1_2/WL25"
+merge "sram_4t_layout_32x1_2/WL25" "WL25"
+merge "sram_4t_layout_32x1_0/WL14" "sram_4t_layout_32x1_9/WL14" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL14" "sram_4t_layout_32x1_8/WL14"
+merge "sram_4t_layout_32x1_8/WL14" "sram_4t_layout_32x1_7/WL14"
+merge "sram_4t_layout_32x1_7/WL14" "sram_4t_layout_32x1_6/WL14"
+merge "sram_4t_layout_32x1_6/WL14" "sram_4t_layout_32x1_5/WL14"
+merge "sram_4t_layout_32x1_5/WL14" "sram_4t_layout_32x1_4/WL14"
+merge "sram_4t_layout_32x1_4/WL14" "sram_4t_layout_32x1_3/WL14"
+merge "sram_4t_layout_32x1_3/WL14" "sram_4t_layout_32x1_1/WL14"
+merge "sram_4t_layout_32x1_1/WL14" "sram_4t_layout_32x1_2/WL14"
+merge "sram_4t_layout_32x1_2/WL14" "WL14"
+merge "sram_4t_layout_32x1_0/WL3" "sram_4t_layout_32x1_9/WL3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL3" "sram_4t_layout_32x1_8/WL3"
+merge "sram_4t_layout_32x1_8/WL3" "sram_4t_layout_32x1_7/WL3"
+merge "sram_4t_layout_32x1_7/WL3" "sram_4t_layout_32x1_6/WL3"
+merge "sram_4t_layout_32x1_6/WL3" "sram_4t_layout_32x1_5/WL3"
+merge "sram_4t_layout_32x1_5/WL3" "sram_4t_layout_32x1_4/WL3"
+merge "sram_4t_layout_32x1_4/WL3" "sram_4t_layout_32x1_3/WL3"
+merge "sram_4t_layout_32x1_3/WL3" "sram_4t_layout_32x1_1/WL3"
+merge "sram_4t_layout_32x1_1/WL3" "sram_4t_layout_32x1_2/WL3"
+merge "sram_4t_layout_32x1_2/WL3" "WL3"
+merge "sram_4t_layout_32x1_0/gnd" "sram_4t_layout_32x1_9/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/gnd" "sram_4t_layout_32x1_8/gnd"
+merge "sram_4t_layout_32x1_8/gnd" "sram_4t_layout_32x1_7/gnd"
+merge "sram_4t_layout_32x1_7/gnd" "vssd2"
+merge "sram_4t_layout_32x1_0/WL26" "sram_4t_layout_32x1_9/WL26" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL26" "sram_4t_layout_32x1_8/WL26"
+merge "sram_4t_layout_32x1_8/WL26" "sram_4t_layout_32x1_7/WL26"
+merge "sram_4t_layout_32x1_7/WL26" "sram_4t_layout_32x1_6/WL26"
+merge "sram_4t_layout_32x1_6/WL26" "sram_4t_layout_32x1_5/WL26"
+merge "sram_4t_layout_32x1_5/WL26" "sram_4t_layout_32x1_4/WL26"
+merge "sram_4t_layout_32x1_4/WL26" "sram_4t_layout_32x1_3/WL26"
+merge "sram_4t_layout_32x1_3/WL26" "sram_4t_layout_32x1_1/WL26"
+merge "sram_4t_layout_32x1_1/WL26" "sram_4t_layout_32x1_2/WL26"
+merge "sram_4t_layout_32x1_2/WL26" "WL26"
+merge "sram_4t_layout_32x1_0/WL15" "sram_4t_layout_32x1_9/WL15" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL15" "sram_4t_layout_32x1_8/WL15"
+merge "sram_4t_layout_32x1_8/WL15" "sram_4t_layout_32x1_7/WL15"
+merge "sram_4t_layout_32x1_7/WL15" "sram_4t_layout_32x1_6/WL15"
+merge "sram_4t_layout_32x1_6/WL15" "sram_4t_layout_32x1_5/WL15"
+merge "sram_4t_layout_32x1_5/WL15" "sram_4t_layout_32x1_4/WL15"
+merge "sram_4t_layout_32x1_4/WL15" "sram_4t_layout_32x1_3/WL15"
+merge "sram_4t_layout_32x1_3/WL15" "sram_4t_layout_32x1_1/WL15"
+merge "sram_4t_layout_32x1_1/WL15" "sram_4t_layout_32x1_2/WL15"
+merge "sram_4t_layout_32x1_2/WL15" "WL15"
+merge "sram_4t_layout_32x1_0/WL4" "sram_4t_layout_32x1_9/WL4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL4" "sram_4t_layout_32x1_8/WL4"
+merge "sram_4t_layout_32x1_8/WL4" "sram_4t_layout_32x1_7/WL4"
+merge "sram_4t_layout_32x1_7/WL4" "sram_4t_layout_32x1_6/WL4"
+merge "sram_4t_layout_32x1_6/WL4" "sram_4t_layout_32x1_5/WL4"
+merge "sram_4t_layout_32x1_5/WL4" "sram_4t_layout_32x1_4/WL4"
+merge "sram_4t_layout_32x1_4/WL4" "sram_4t_layout_32x1_3/WL4"
+merge "sram_4t_layout_32x1_3/WL4" "sram_4t_layout_32x1_1/WL4"
+merge "sram_4t_layout_32x1_1/WL4" "sram_4t_layout_32x1_2/WL4"
+merge "sram_4t_layout_32x1_2/WL4" "WL4"
+merge "sram_4t_layout_32x1_0/BLb" "BLb9" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_0/WL27" "sram_4t_layout_32x1_9/WL27" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL27" "sram_4t_layout_32x1_8/WL27"
+merge "sram_4t_layout_32x1_8/WL27" "sram_4t_layout_32x1_7/WL27"
+merge "sram_4t_layout_32x1_7/WL27" "sram_4t_layout_32x1_6/WL27"
+merge "sram_4t_layout_32x1_6/WL27" "sram_4t_layout_32x1_5/WL27"
+merge "sram_4t_layout_32x1_5/WL27" "sram_4t_layout_32x1_4/WL27"
+merge "sram_4t_layout_32x1_4/WL27" "sram_4t_layout_32x1_3/WL27"
+merge "sram_4t_layout_32x1_3/WL27" "sram_4t_layout_32x1_1/WL27"
+merge "sram_4t_layout_32x1_1/WL27" "sram_4t_layout_32x1_2/WL27"
+merge "sram_4t_layout_32x1_2/WL27" "WL27"
+merge "sram_4t_layout_32x1_0/WL16" "sram_4t_layout_32x1_9/WL16" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/WL16" "sram_4t_layout_32x1_8/WL16"
+merge "sram_4t_layout_32x1_8/WL16" "sram_4t_layout_32x1_7/WL16"
+merge "sram_4t_layout_32x1_7/WL16" "sram_4t_layout_32x1_6/WL16"
+merge "sram_4t_layout_32x1_6/WL16" "sram_4t_layout_32x1_5/WL16"
+merge "sram_4t_layout_32x1_5/WL16" "sram_4t_layout_32x1_4/WL16"
+merge "sram_4t_layout_32x1_4/WL16" "sram_4t_layout_32x1_3/WL16"
+merge "sram_4t_layout_32x1_3/WL16" "sram_4t_layout_32x1_1/WL16"
+merge "sram_4t_layout_32x1_1/WL16" "sram_4t_layout_32x1_2/WL16"
+merge "sram_4t_layout_32x1_2/WL16" "WL16"
+merge "sram_4t_layout_32x1_6/gnd" "sram_4t_layout_32x1_5/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_5/gnd" "sram_4t_layout_32x1_4/gnd"
+merge "sram_4t_layout_32x1_4/gnd" "sram_4t_layout_32x1_3/gnd"
+merge "sram_4t_layout_32x1_3/gnd" "sram_4t_layout_32x1_1/gnd"
+merge "sram_4t_layout_32x1_1/gnd" "sram_4t_layout_32x1_2/gnd"
+merge "sram_4t_layout_32x1_2/gnd" "vssd1"
+merge "sram_4t_layout_32x1_3/BLb" "BLb2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_6/BLb" "BLb5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_6/vdd" "sram_4t_layout_32x1_5/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_5/vdd" "sram_4t_layout_32x1_4/vdd"
+merge "sram_4t_layout_32x1_4/vdd" "sram_4t_layout_32x1_3/vdd"
+merge "sram_4t_layout_32x1_3/vdd" "sram_4t_layout_32x1_1/vdd"
+merge "sram_4t_layout_32x1_1/vdd" "sram_4t_layout_32x1_2/vdd"
+merge "sram_4t_layout_32x1_2/vdd" "vdd"
+merge "sram_4t_layout_32x1_1/BL" "BL0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_2/BL" "BL1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_5/BL" "BL4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/BLb" "BLb8" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_8/BL" "BL7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_3/BL" "BL2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_6/BL" "BL5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_2/BLb" "BLb1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_9/BL" "BL8" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_0/BL" "BL9" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_5/BLb" "BLb4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_8/BLb" "BLb7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_1/BLb" "BLb0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_4/BLb" "BLb3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x1_7/BLb" "BLb6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,20 @@
+puts "Reading layout /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/precheck_results/23_APR_2024___21_32_42/tmp/ext/user_project_wrapper.gds.spice..."
+set layout [readnet spice /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/precheck_results/23_APR_2024___21_32_42/tmp/ext/user_project_wrapper.gds.spice]
+set source [readnet spice /dev/null]
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/dependencies/pdks/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice..."
+readnet spice /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/dependencies/pdks/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/dependencies/pdks/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice..."
+readnet spice /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/dependencies/pdks/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/truncation_SRAM.spice..."
+readnet spice /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/truncation_SRAM.spice $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/privacy_SRAM.spice..."
+readnet spice /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/privacy_SRAM.spice $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/core_flat_v4.spice..."
+readnet spice /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/core_flat_v4.spice $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/lvs/user_project_wrapper/defines.v..."
+readnet verilog /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/lvs/user_project_wrapper/defines.v $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/verilog/gl/user_proj_IMPACT_HEAD.v..."
+readnet verilog /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/verilog/gl/user_proj_IMPACT_HEAD.v $source
+puts "Reading source /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/verilog/gl/user_project_wrapper.v..."
+readnet verilog /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/verilog/gl/user_project_wrapper.v $source
+lvs "$layout user_project_wrapper" "$source user_project_wrapper" /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/precheck_results/23_APR_2024___21_32_42/tmp/sky130B_setup.tcl /home/engtech/Desktop/Openlane_v2/IMPACT_CI404/precheck_results/23_APR_2024___21_32_42/tmp/lvs.report -blackbox -json -noflatten=/home/engtech/Desktop/Openlane_v2/IMPACT_CI404/precheck_results/23_APR_2024___21_32_42/tmp/noflatten.glob

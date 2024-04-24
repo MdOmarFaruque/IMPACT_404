@@ -1,0 +1,20 @@
+timestamp 1713915691
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sram_4t_layout_32x10 sram_4t_layout_32x10_0 1 0 10 0 1 -11942
+use sram_6t_32x10 sram_6t_32x10_0 1 0 22 0 1 18
+node "w_3500_n11942#" 0 0 3500 -11942 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_8232_78#" 0 0 8232 78 pw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_6t_32x10_0/a_8078_434#" "sram_4t_layout_32x10_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x10_0/VSUBS" "VSUBS"
+merge "sram_6t_32x10_0/sram_6t_32x1_0/gnd" "sram_6t_32x10_0/sram_6t_32x1_8/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_6t_32x10_0/sram_6t_32x1_8/gnd" "sram_6t_32x10_0/vssd2"
+merge "sram_6t_32x10_0/vssd2" "sram_6t_32x10_0/dw_8210_60#"
+merge "sram_6t_32x10_0/dw_8210_60#" "w_8232_78#"
+merge "sram_4t_layout_32x10_0/sram_4t_layout_32x1_0/gnd" "sram_4t_layout_32x10_0/sram_4t_layout_32x1_7/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sram_4t_layout_32x10_0/sram_4t_layout_32x1_7/gnd" "sram_4t_layout_32x10_0/dw_3490_0#"
+merge "sram_4t_layout_32x10_0/dw_3490_0#" "w_3500_n11942#"
